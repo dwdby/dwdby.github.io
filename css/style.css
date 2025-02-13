@@ -1,41 +1,77 @@
-body {
-    background-color: #1E1E1E; /* Dark background */
-    color: #E5E5E5; /* Light text */
-    font-family: "Garamond", serif; /* Elegant fantasy font */
-}
+/* Import Google Fonts for a more refined look */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;500&display=swap');
 
-header {
-    background-color: #2C2C2C;
-    color: #FFD700; /* Gold for titles*/
-    text-transform: uppercase;
+body {
+    background-color: #121212; /* Darker modern shade */
+    color: #E0E0E0; /* Softer light gray text */
+    font-family: "Montserrat", sans-serif; /* Clean and modern */
     margin: 0;
     padding: 0;
+}
+
+/* Header - Sleek and centered */
+header {
+    background: linear-gradient(to right, #2C2C2C, #1E1E1E); /* Subtle gradient */
+    color: #FFD700; /* Gold */
+    text-transform: uppercase;
     text-align: center;
+    padding: 30px 10px;
+    font-family: "Cinzel", serif; /* Elegant fantasy style */
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Navigation - Modern and centered */
+nav {
+    background: #1F1B17; /* Deep warm black */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    text-align: center;
+    padding: 15px 0;
 }
 
 nav ul {
-    background: #3E261E; /* Deep brown */
-    list-style: none; /* Removes the bullet points */
-    padding: 0; /* Removes extra padding */
-    margin: 0; /* Ensures alignment */
-    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 nav ul li {
     display: inline;
-    padding: 10px 20px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #D4AF37; /* Gold links */
+    color: #D4AF37; /* Gold */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
 }
 
+/* Hover effect for nav links */
+nav ul li a:hover {
+    color: #FFD700;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Sections - More readable and modern */
 section {
-    background: #141414; /* Near black */
-    color: #C0C0C0; /* Silver text */
-    padding: 20px;
+    background: #1A1A1A; /* Soft black */
+    color: #D0D0D0; /* Light silver */
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Footer - Subtle and elegant */
 footer {
-    background: #2C2C2C;
-    color: #9C835F; /* Muted bronze */
+    background: linear-gradient(to right, #2C2C2C, #1E1E1E);
+    color: #B8860B; /* Golden-brown */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
 }
