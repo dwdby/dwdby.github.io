@@ -15,6 +15,9 @@ header {
 
 nav ul {
     background: #3E261E; /* Deep brown */
+    list-style: none; /* Removes the bullet points */
+    padding: 0; /* Removes extra padding */
+    margin: 0; /* Ensures alignment */
 }
 
 nav ul li a {
