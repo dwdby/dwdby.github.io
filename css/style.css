@@ -2,6 +2,10 @@ body {
     background-color: #1E1E1E; /* Dark background */
     color: #E5E5E5; /* Light text */
     font-family: "Garamond", serif; /* Elegant fantasy font */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
 }
 
 header {
