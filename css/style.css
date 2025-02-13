@@ -18,6 +18,7 @@ nav ul {
     list-style: none; /* Removes the bullet points */
     padding: 0; /* Removes extra padding */
     margin: 0; /* Ensures alignment */
+    text-align: center;
 }
 nav ul li {
     display: inline;
