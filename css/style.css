@@ -1,32 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    background-color: #1E1E1E; /* Dark background */
+    color: #E5E5E5; /* Light text */
+    font-family: "Garamond", serif; /* Elegant fantasy font */
 }
+
 header {
-    background: #1e5d20;
-    color: white;
-    padding: 20px;
+    background-color: #2C2C2C;
+    color: #FFD700; /* Gold for titles */
+    text-transform: uppercase;
 }
+
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    background: #29832c;
+    background: #3E261E; /* Deep brown */
 }
-nav ul li {
-    display: inline;
-    padding: 10px 20px;
-}
+
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: #D4AF37; /* Gold links */
 }
+
 section {
+    background: #141414; /* Near black */
+    color: #C0C0C0; /* Silver text */
     padding: 20px;
 }
+
 footer {
-    background: #1e5d20;
-    color: white;
-    padding: 10px;
+    background: #2C2C2C;
+    color: #9C835F; /* Muted bronze */
 }
